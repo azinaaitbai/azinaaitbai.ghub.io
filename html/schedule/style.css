@@ -17,7 +17,7 @@
   h1 {
     font-size: 36px;
     padding: 15px;
-    color: #849633;
+    color: #4e86d9;
     background-color: white;
   }
   
@@ -48,7 +48,7 @@
   }
   
   td {
-    border: 2px solid #e8bf92;
+    border: 2px solid #9bba6d;
     width: 300px;
   }
   
@@ -58,13 +58,13 @@
     position: fixed;
     width: 100%;
     bottom: 5px;
-    background-color: #9e292c;
+    background-color: #f1eaeaea;
     z-index: 5;
   }
   footer h3 {
     display: inline-block;
     font-size: 14px;
-    background-color: #242f44;
+    background-color: #4374ce;
   }
   
   .container {
@@ -80,7 +80,7 @@
   
     </style>
   <meta charset="utf-8">
-  <title>Aguilllar Family Wine Festival</title>
+  <title>Aguillar Family Wine Festival</title>
   <link rel="stylesheet" type="text/css" href="reset.css" />
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
