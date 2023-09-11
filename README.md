@@ -6,7 +6,4 @@ https://azinaaitbai.github.io/html/new%20york/newyourk.html
 (link for new york city web) 
 
 https://azinaaitbai.github.io/html/fashion.html
-(link for festival)
-
-https://azinaaitbai.github.io/html/fashion.html
 (link for fashion.html)
