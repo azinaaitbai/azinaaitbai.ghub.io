@@ -1,3 +1,3 @@
 # azinaaitbai.github.io
-https://azinaaitbai.github.io/html/schedule/festival.html
+https://azinaaitbai.github.io/html/festival.html
 (link for festival site)
