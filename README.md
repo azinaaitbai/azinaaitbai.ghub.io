@@ -7,3 +7,6 @@ https://azinaaitbai.github.io/html/new%20york/newyourk.html
 
 https://azinaaitbai.github.io/html/fashion.html
 (link for fashion.html)
+
+https://azinaaitbai.github.io/html/index.html
+(link for Wikipedia - Bone)
