@@ -10,3 +10,6 @@ https://azinaaitbai.github.io/html/fashion.html
 
 https://azinaaitbai.github.io/html/index.html
 (link for Wikipedia - Bone)
+
+https://azinaaitbai.github.io/html/blogs/taraz/taraz.html
+(link for taraz.html)
