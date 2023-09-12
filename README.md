@@ -13,3 +13,6 @@ https://azinaaitbai.github.io/html/index.html
 
 https://azinaaitbai.github.io/html/blogs/taraz/taraz.html
 (link for taraz.html)
+
+https://azinaaitbai.github.io/html/resume/myresume.html
+(link for my resume)
