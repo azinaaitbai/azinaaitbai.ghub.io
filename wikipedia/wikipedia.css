@@ -1,0 +1,93 @@
+style
+p {
+    color: rgb(59, 101, 50);
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(7, 7, 7) !important;
+    font-family: Verdana;
+}
+.green {
+    color: rgb(70, 198, 79);
+}
+.bold {
+    font-weight: bold;
+}
+
+[href]{
+    color: black;
+}
+
+[href]{
+    color: rgb(126, 12, 234);
+}
+img[src*='L0057714'] {
+    height: 500px;
+}
+img[src*='bone'] {
+    height: 500px;
+}
+p:hover {
+    background-color: rgb(243, 243, 249);
+}
+h1 {
+    color: aqua;
+    font-family: Georgia;
+    .menu {
+        font-family: Georgia;
+    }
+    font-family: 'Courier New';
+    text-align: left;
+    color: rgb(86, 86, 175);
+    background-color: rgb(238, 243, 245);
+}
+
+.headline { 
+    color:rgb(59, 101, 50)
+}
+
+
+.main p {
+    color: rgb(128, 128, 228);
+    
+}
+ 
+h2 {
+    color: rgb(22, 40, 198);
+}
+
+hr {
+    color: rgb(252, 249, 249);
+}
+
+i { 
+    color: rgb(21, 30, 196);
+}
+
+.overlay {
+    opacity: 0.5;
+}
+
+.main-banner {
+    background-image: 
+    url('https://www.example.com/image.jpg');
+}
+
+.main-banner {
+    background-image: url('images/mountains.jpg');
+}
+
+
+.main p {
+    color: antiquewhite;
+}
+
+body {
+    background-color: rgb(208, 190, 237);
+  }
+  #article{
+    color: rgb(98, 6, 123);
+  }
+#talk{
+    color: rgb(86, 12, 215);
+}
