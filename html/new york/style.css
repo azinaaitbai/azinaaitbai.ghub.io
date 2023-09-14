@@ -1,5 +1,99 @@
+p {
+    color: rgb(229, 73, 73);
+    color: rgb(207, 216, 31);
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(7, 7, 7) !important;
+    font-family: Verdana;
+}
+.green {
+    color: rgb(187, 129, 43);
+}
+.bold {
+    font-weight: bold;
+}
+
+[href]{
+    color: black;
+}
+
+[href]{
+    color: rgb(48, 228, 57);
+}
+img[src*='L0057714'] {
+    height: 500px;
+}
+img[src*='bone'] {
+    height: 500px;
+}
+p:hover {
+    background-color: rgb(243, 243, 249);
+}
+h1 {
+    color: rgb(197, 218, 43);
+    font-family: Georgia;
+    .menu {
+        font-family: Georgia;
+    }
+    font-family: 'Courier New';
+    text-align: left;
+    color: rgb(86, 86, 175);
+    background-color: rgb(238, 243, 245);
+}
+
+.headline { 
+    color:rgb(59, 101, 50)
+}
+
+
+.main p {
+    color: rgb(128, 128, 228);
+    
+}
+ 
+h2 {
+    color: rgb(22, 40, 198);
+}
+
+hr {
+    color: rgb(252, 249, 249);
+}
+
+i { 
+    color: rgb(21, 30, 196);
+}
+
+.overlay {
+    opacity: 0.5;
+}
+
+.main-banner {
+    background-image: 
+    url('https://www.example.com/image.jpg');
+}
+
+.main-banner {
+    background-image: url('images/mountains.jpg');
+}
+
+
+.main p {
+    color: antiquewhite;
+}
+
 body {
-	background: #fdfdfd;
+    background-color: rgb(208, 190, 237);
+  }
+  #article{
+    color: rgb(98, 6, 123);
+  }
+#talk{
+    color: rgb(86, 12, 215);
+}
+
+
+body {
+	background: #c7f3ae;
 }
 
 nav ul {
@@ -7,7 +101,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #010e80;
+	background-color: #f9fafd;
 	display: table;
 	width: 100%;
 }
@@ -18,14 +112,14 @@ nav li {
 
 li a {
 	display: block;
-	color: white;
+	color: rgb(206, 184, 41);
 	text-align: center;
 	padding: 30px 30px;
 	text-decoration: none;
 }
 
 li a:hover {
-	background-color: #7d56cb;
+	background-color: #fd5f43;
 }
 
 h2 a {
@@ -35,7 +129,7 @@ h2 a {
 }
 
 h2 a:hover {
-	background-color: #7771dd;
+	background-color: #3bc631;
 }
 
 figcaption{
@@ -67,7 +161,7 @@ aside {
 	padding: 15px;
 	max-width: 80%;
 	position: relative;
-	border-color: #010e80;
+	border-color: #a3b231;
 	border-width: 5px;
 	font-size: 18px;
 }
@@ -76,7 +170,7 @@ footer {
 	position: relative;
 	width: 100%;
 	bottom: -100px;
-	background-color: #010e80;
+	background-color: #40ce55;
 }
 
 footer p {
@@ -112,4 +206,8 @@ embed {
 	width: 400px;
 	height: 458px;
   padding:15px;
+}
+
+ol {
+	color: #2fd970;
 }

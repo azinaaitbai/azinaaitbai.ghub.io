@@ -1,13 +1,68 @@
-body {
-	background: #efefeb;
+p {
+    
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(140, 83, 14) !important;
+    font-family: Verdana;
 }
+.bold {
+    font-weight: bold;
+}
+
+
+[href]{
+    color: rgb(196, 182, 36);
+}
+
+p:hover {
+    background-color: rgb(240, 198, 129);
+}
+h1 {
+    font-family: Georgia;
+    .menu {
+        font-family: Georgia;
+    }
+    font-family: 'Courier New';
+    text-align: left;
+    color: rgb(116, 94, 23);
+    background-color: rgb(245, 244, 241);
+}
+
+
+ 
+h2 {
+    color: rgb(86, 67, 21);
+}
+
+
+
+.overlay {
+    opacity: 0.5;
+}
+
+.main-banner {
+    background-image: 
+    url('https://www.example.com/image.jpg');
+}
+
+.main-banner {
+    background-image: url('images/mountains.jpg');
+}
+
+
+
+
+body {
+    background-color: rgb(215, 188, 130);
+  }
+  
 
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #010e80;
+	background-color: #e9e2b9;
 	display: table;
 	width: 100%;
 }
@@ -18,26 +73,26 @@ nav li {
 
 li a {
 	display: block;
-	color: white;
+	color: rgb(189, 157, 42);
 	text-align: center;
 	padding: 30px 30px;
 	text-decoration: none;
 }
 
 li a:hover {
-	background-color: #7d56cb;
+	background-color: #c1910e;
 }
 
 h2 a {
 	padding: 33px 25px;
-	color: white;
+	color: rgb(97, 20, 20);
 	text-decoration: none;
 }
 
-h2 a:hover {
-	background-color: #7771dd;
-}
 
+ol{
+	color: #531b1b;
+}
 figcaption{
   text-align:left;
 }
@@ -67,7 +122,7 @@ aside {
 	padding: 15px;
 	max-width: 80%;
 	position: relative;
-	border-color: #010e80;
+	border-color: #56520a;
 	border-width: 5px;
 	font-size: 18px;
 }
@@ -76,7 +131,7 @@ footer {
 	position: relative;
 	width: 100%;
 	bottom: -100px;
-	background-color: #010e80;
+	background-color: #ad8a30;
 }
 
 footer p {
@@ -87,9 +142,15 @@ footer p {
 	width: 100%;
 	box-sizing: border-box;
 }
-
 footer a {
 	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+}
+
+footer a {
+	color: rgb(156, 27, 27);
 	text-decoration: none;
 	text-align: center;
 	width: 100%;
