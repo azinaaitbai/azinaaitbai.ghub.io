@@ -4,11 +4,43 @@ p {
     font-weight: bold;
     color: rgb(140, 83, 14) !important;
     font-family: Verdana;
+	p {
+		color: grey;
+		font-size: 16px;
+		line-height: 48px;
+		margin-top: 60px;
+		padding: 10px 20px;
+		/*
+		min-width: 200px;
+		max-width: 800px;
+		min-height: 200px;
+		max-hight: 300px;
+		*/
+	  }
 }
 .bold {
     font-weight: bold;
 }
-
+h1 {
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+  }
+#banner .content h1 {
+    border: 3px solid white;
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+  }
+#banner {
+    background-image: url("https://spk-taraz.kz/wp-content/uploads/2021/05/53-vstrechaj-strana-litso-taraza.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px; 
+    width: 100%;
+  }
 
 [href]{
     color: rgb(196, 182, 36);
