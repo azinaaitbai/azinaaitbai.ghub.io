@@ -16,3 +16,6 @@ https://azinaaitbai.github.io/html/blogs/taraz/taraz.html
 
 https://azinaaitbai.github.io/html/resume/myresume.html
 (link for my resume)
+
+https://azinaaitbai.github.io/wikipedia/wikipedia.html
+(link for wikipedia.css)
