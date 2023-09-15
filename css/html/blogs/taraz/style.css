@@ -1,11 +1,11 @@
 p {
-    
+    background-color: #eeddb1;
     font-size: 18px;
     font-weight: bold;
     color: rgb(140, 83, 14) !important;
     font-family: Verdana;
 	p {
-		color: grey;
+
 		font-size: 16px;
 		line-height: 48px;
 		margin-top: 60px;
@@ -22,13 +22,13 @@ p {
     font-weight: bold;
 }
 h1 {
-    color: white;
+    color: rgb(11, 11, 11);
     font-size: 42px;
     font-weight: 600;
     text-align: center;
   }
 #banner .content h1 {
-    border: 3px solid white;
+    border: 3px solid rgb(246, 4, 4);
     position: relative;
     top: 50px;
     width: 400px;
@@ -47,7 +47,7 @@ h1 {
 }
 
 p:hover {
-    background-color: rgb(240, 198, 129);
+    background-color: rgb(195, 176, 132);
 }
 h1 {
     font-family: Georgia;
@@ -56,8 +56,6 @@ h1 {
     }
     font-family: 'Courier New';
     text-align: left;
-    color: rgb(116, 94, 23);
-    background-color: rgb(245, 244, 241);
 }
 
 
@@ -78,15 +76,9 @@ h2 {
 }
 
 .main-banner {
-    background-image: url('images/mountains.jpg');
+    background-image: url('https://spk-taraz.kz/wp-content/uploads/2021/05/53-vstrechaj-strana-litso-taraza.jpg');
 }
 
-
-
-
-body {
-    background-color: rgb(215, 188, 130);
-  }
   
 
 nav ul {
@@ -94,7 +86,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #e9e2b9;
+	background-color: #511ea1;
 	display: table;
 	width: 100%;
 }
@@ -206,3 +198,109 @@ embed {
 	height: 650px;
   padding: 20px;
 }
+
+
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .navigation ul {
+    margin: 20;
+    padding: 40;
+    text-align: justify;
+  }
+  
+  .navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
+  }
+  
+  .navigation  li.logo {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+  
+  #banner {
+    background-image: url("https://spk-taraz.kz/wp-content/uploads/2021/05/53-vstrechaj-strana-litso-taraza.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px; 
+    width: 100%;
+  }
+  
+  #banner .content h1 {
+    
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  #main {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    height: 1000px;
+    overflow: scroll;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  h2 {
+    border: 1px dotted rgb(148, 115, 62);
+    color: rgb(150, 129, 67);
+    font-size: 14px;
+    line-height: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    text-align: center;
+  }
+  
+  
+  
+  p {
+    color: grey;
+    font-size: 16px;
+    line-height: 48px;
+    margin-top: 60px;
+    padding: 10px 20px;
+    /*
+    min-width: 200px;
+    max-width: 800px;
+    min-height: 200px;
+    max-hight: 300px;
+    */
+  }
+  
+  .pull-quote {
+    margin: 0 auto;
+    width: 400px;
+    /* width: 350px */
+  }
+  
+  
+  
+  
+  
+  .share a {
+    background: rgb(218, 150, 54);
+    border: 1px solid rgb(119, 97, 38);
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  
