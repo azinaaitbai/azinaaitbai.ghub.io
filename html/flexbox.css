@@ -31,6 +31,7 @@ body {
   /* App Container */
   .container {
     border: 2px solid snow;
+    display: flex;
   }
 
   .row {
@@ -63,6 +64,8 @@ body {
   /* Reminders */
   .reminders {
     background-color: khaki;
+    display: inline-flex;
+    flex-grow: 2;
   }
   
   .reminders h3 {
