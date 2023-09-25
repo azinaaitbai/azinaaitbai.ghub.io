@@ -1,0 +1,51 @@
+html, body {
+    margin: 150;
+    padding: 100;
+    background-color: #020202;
+  }
+  background{
+    color: #020202;
+  }
+  body {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700px;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 940px; 
+    padding: 10px;
+  }
+  
+  .header {
+    background: url(https://github.com/darkhanzhursin/jihc-fe/blob/main/homeworks/css/tea/images/img-mission-background.jpg?raw=true) no-repeat center center; 
+    background-size: cover;
+    height: 700px;
+    font-weight: 600px;
+    text-align: center; 
+  }
+  
+  .header .container {
+    position: relative;
+    top: 600px;
+  }
+  
+  .header h2 {
+    color: #fff;
+    line-height: 50px; 
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    text-transform: uppercase; 
+    border: #020202;
+    border-radius: 30px;
+    border-bottom: 30px;
+    border-width: 20px;
+  }
+
+  h4{
+    color: #fff;
+  }
+  nav{
+    text-align: right;
+  }
