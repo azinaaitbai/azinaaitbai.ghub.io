@@ -20,5 +20,5 @@ https://azinaaitbai.github.io/html/resume/myresume.html
 https://azinaaitbai.github.io/wikipedia/wikipedia.html
 (link for wikipedia.css)
 
-https://azinaaitbai.github.io/html/tea
+https://azinaaitbai.github.io/html/tea/tea.html
 (link for tea website)
