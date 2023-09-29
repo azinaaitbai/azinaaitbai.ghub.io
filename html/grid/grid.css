@@ -1,4 +1,88 @@
-.wrapper {
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
+:root{
+  --main-radius:5px;
+  --main-padding:5px;
+}
+
+.container{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  grid-template-areas: 
+      "nav nav nav nav"
+      "sidebar main main main"
+      "sidebar content1 content2 content3"
+      "sidebar footer footer footer ";
+  grid-gap: 0.2rem;
+  font-family:"Inter", sans-serif ;
+  font-weight:800;
+  text-transform: uppercase;
+  font-size:12px;
+  color:#f4f5f5;
+  text-align:center;
+}
+
+nav{
+  background-color: #155a3c;
+  grid-area:nav;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);
+}
+
+main{
+  background-image:url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0%2C214%2C3008%2C1579&wid=1200&hei=630&scl=2.506666666666667);
+  grid-area:main;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);
+}
+
+#sidebar{
+  background-image: url(https://i.pinimg.com/originals/ea/b4/5a/eab45af7d3f7bb52071458dc09c6bbb8.jpg);
+  grid-area:sidebar;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);
+}
+
+#content1{
+  background-image: url(https://i.pinimg.com/originals/ee/58/e9/ee58e9ccfb41ae84f5f565c3b889b3a4.jpg);
+  grid-area:content1;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);
+
+}
+
+#content2{
+  background-image:url(https://www.thehappychickencoop.com/wp-content/uploads/2021/10/shutterstock_1649187655.jpg);
+  grid-area:content2;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);
+}
+
+#content3{
+  background-image: url(https://media.istockphoto.com/id/1011082092/photo/autumn-forest-landscape-colorful-foliage-on-trees-and-grass-shining-on-sunbeams-amazing.jpg?s=612x612&w=0&k=20&c=7eH-l7s7Cw2Jk7bg1twJz196ZJW0dCjl7TKU5ZkECU8=);
+  grid-area:content3;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);
+}
+
+footer{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_Panda_2004-03-2.jpg/1200px-Giant_Panda_2004-03-2.jpg);
+  grid-area:footer;
+  border-radius:var(--main-radius);
+  padding-top:var(--main-padding);
+}
+
+@media only screen and (max-width:550px) {
+  .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+    grid-template-areas:
+      "nav"
+      "sidebar"
+      "main"
+      "content1"
+      "content2"
+      "content3"
+      "footer";
   }
+}
