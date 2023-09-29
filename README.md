@@ -22,3 +22,6 @@ https://azinaaitbai.github.io/wikipedia/wikipedia.html
 
 https://azinaaitbai.github.io/html/tea/tea.html
 (link for tea website)
+
+https://github.com/azinaaitbai/azinaaitbai.github.io/blob/main/html/AitbaiAzina/fotomatic.html
+(fotomatic website)
