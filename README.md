@@ -25,3 +25,6 @@ https://azinaaitbai.github.io/html/tea/tea.html
 
 https://github.com/azinaaitbai/azinaaitbai.github.io/blob/main/html/AitbaiAzina/fotomatic.html
 (fotomatic website)
+
+https://azinaaitbai.github.io/html/grid/grid.html
+(grid website)
