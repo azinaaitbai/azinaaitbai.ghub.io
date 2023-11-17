@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oian</title>
+
+    <link rel="stylesheet" href="bad.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Oian</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Басты бет</a>
+            <a href="#about">Оқушы профилі</a>
+            <a href="#education">Пікірлер</a>
+            <a href="#skills">Даму</a>
+            <a href="#contact">Мұғаліммен байланыс</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1><span>Білім ол байлық</span></h1>
+            <div class="text-animate">
+                <h3></h3>
+            </div>
+            <p>Білімдіге әр жол ашық</p>
+
+            <div class="btn-box">
+                <a href="afs.html" class="btn">Тіркелу</a>
+                <a href="#premium" class="btn">Премиум</a>
+            </div>
+        </div>
+
+        <div class="home-imgHover"></div>
+        <figure>
+            <img class="image1" src="c:\Users\nurek\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\0332D694DAAB22E0E0EAF7A5E88433F9\Изображение WhatsApp 2023-10-01 в 23.18.46_62545c99.jpg" alt="">
+        </figure>
+    </section>
+    <section class="about" id="about">
+        <h2 class="heading">Менің <span> Профилім</span></h2>
+
+        <div class="about-img">
+            <img src="data:image/png;base64,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" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Айтбай Азина</h3>
+            <p>2F-2</p>
+
+            <div class="btn-box btns">
+                <a href="#" class="btn">Профильге өту</a>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <h2 class="heading"><span>Пікірлер</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Сабаққа пікірлер</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar' ></i>Жетібаева Жанел</div>
+                            <h3>сабаққа рахмет</h3>
+                            <p>Сабақ қызық болды</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar' ></i>Бекмырза Адема</div>
+                        <h3>қызық болды</h3>
+                        <p>Көптеген жаңа заттар білдім</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar' ></i>Сейтқаыз Алина</div>
+                            <h3>Жақсы болды</h3>
+                            <p>Тақырыпты жақсы түсіндім</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="education-column">
+                <h3 class="title">Тесттерге пікірлер</h3>
+        <div class="education-box">
+            <div class="education-content">
+                <div class="content">
+                    <div class="year"><i class='bx bx-calendar' ></i>Бекмырза Адема</div>
+                <h3>Қиын болды</h3>
+                <p>бірақ сұрақтарды жасау қызық болды</p>
+                </div>
+            </div>
+
+            <div class="education-content">
+                <div class="content">
+                    <div class="year"><i class='bx bx-calendar' ></i>Айтбай Азина</div>
+                <h3>Жақсы тапсырдым деген үміттемін</h3>
+                <p>Уақыттың көбісі 3 тапсырмаға кетті</p>
+                </div>
+            </div>
+
+            <div class="education-content">
+                <div class="content">
+                    <div class="year"><i class='bx bx-calendar' ></i>Болат Мөлдір</div>
+                <h3>Кейбір  тапсырмалар оңайб кейбірі қиын болды</h3>
+                <p>Бірақ негізінен тақырыпты түсіндім</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section class="skills" id="skills">
+
+    <div class="skiils-row">
+        <div class="skills-column">
+            <h3 class="title">Менің тестттерім</h3>
+
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>Экономика<span>65%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>  
+
+                    <div class="progress">
+                        <h3>География<span>49%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>  
+
+                    <div class="progress">
+                        <h3>Ағылшын<span>23%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>  
+
+                    <div class="progress">
+                        <h3>Тарих<span>10%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+   </div>
+</section>
+<section class="contact" id="contact">
+    <h2 class="heading">Мұғаліммен <span> Байланыс</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <div class="input-field">
+                <input type="text" placeholder="Аты - жөні" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Электронды адресс" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+    </form>
+    <form action="#">
+        <div class="input-box">
+            <div class="input-field">
+                <input type="number" placeholder="Телефон нөмер" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Электрондық пошта" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+    </form>
+    <form action="#">
+        <div class="textarea-field">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Сіздің хабарыңыз" required></textarea>
+            <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns">
+            <button type="submit" class="btn">Растау</button>
+        </div>
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="footer-text">
+        <p> &copy; 2023 Waiting For Naptime </p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+</body>
+</html>
